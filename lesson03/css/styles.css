@@ -1,0 +1,161 @@
+/* Colors 
+#AD343E - Cardinal
+#474747 - Davys Grey
+#F2AF29 - Honey Yellow
+#000 - Black
+#E0E0CE - Eggshell */
+
+/* BOX MODEL FIX */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* CSS RESET 
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+
+/* Global Styles 
+-------------------------------- */
+
+body {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+
+a {
+    color: #AD343E;
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 45px; 
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* Profile 
+-------------------------------- */
+
+header {
+    background-color: #F2AF29;
+}
+
+header h1, h2 {
+    margin: 0;
+    text-shadow:2px 2px #E0E0CE;
+}
+
+/* Projects 
+-------------------------------- */
+
+.projects {
+    background-color: #E0E0CE;
+}
+
+.projects h2 {
+    text-shadow: 2px 2px #474747;
+}
+
+.projects a:hover {
+    color: blue;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    padding: 25px 0;
+}
+
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Work Experience
+-------------------------------- */
+
+.work-exp {
+    background-color: #E0E0CE;
+}
+
+.work-exp h2 {
+    text-shadow: 2px 2px #474747;
+}
+
+/* Education 
+-------------------------------- */
+
+.edu h2 {
+    text-shadow: 2px 2px #474747; /*PLACEHOLDER*/
+}
+
+/* Contact Info 
+-------------------------------- */
+
+footer {
+    background-color: #474747;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+footer h2 {
+    text-shadow: 2px 2px black;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer ul li {
+    list-style-type: none;
+    padding: 10px;
+}
